@@ -3,19 +3,26 @@ import pandas as pd
 from sklearn.cluster import KMeans
 import sklearn.metrics.pairwise as sk
 from sklearn.feature_extraction.text import TfidfVectorizer 
+import nltk
 # number_of_files_test = 1
 # files_test = [""]*number_of_files_test
 # for i in range(number_of_files_test):
 # 	files_test[i] = open(str(i+1)+".", "r")
 # tfidf_vectorizer_test = TfidfVectorizer(input = 'file', use_idf=True)
 # tfidf_vectorizer_test_vectors=tfidf_vectorizer_test.fit_transform(files_test)
-number_of_files = 5
+number_of_files = 17
 files = [""]*number_of_files
+content = [""]*number_of_files
 for i in range(number_of_files):
 	files[i] = open(str(i+1)+".", "r")
+	text = nltk.word_tokenize(files[i].read())
+	text = nltk.pos_tag(text)
+	for j in range(len(text)):
+		if(text[j][1].startswith("N") or text[j][1].startswith("V")):
+			content[i] = content[i] + " "+ text[j][0]
 	files[i].seek(0)
-tfidf_vectorizer=TfidfVectorizer(input = 'file', use_idf=True)
-tfidf_vectorizer_vectors=tfidf_vectorizer.fit_transform(files)
+tfidf_vectorizer=TfidfVectorizer(input = 'content', use_idf=True)
+tfidf_vectorizer_vectors=tfidf_vectorizer.fit_transform(content)
 # print(tfidf_vectorizer_vectors.shape)
 # print(type(tfidf_vectorizer_vectors))
 tfidf_vectorizer_vectors.toarray()
