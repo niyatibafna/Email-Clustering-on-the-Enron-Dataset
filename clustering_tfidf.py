@@ -29,3 +29,6 @@ print(centroids)
 print(labels)
 print(Kmean.predict(tfidf_vectorizer_vectors))
 
+for i in range(number_of_files):
+	print((tfidf_vectorizer_vectors[i][2]))
+
