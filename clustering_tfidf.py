@@ -37,6 +37,7 @@ print(labels)
 print(Kmean.predict(tfidf_vectorizer_vectors))
 
 features = tfidf_vectorizer.get_feature_names()
+
 tfidf_array_format = tfidf_vectorizer_vectors.toarray()
 for i in range(NUMBER_OF_FILES):
 	row = tfidf_array_format[i]
