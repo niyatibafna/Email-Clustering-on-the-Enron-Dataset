@@ -1,19 +1,19 @@
 import pandas as pd
 import numpy as np
-import copy
 from sklearn.cluster import KMeans
-number_of_files=5 
-files = [""]*number_of_files
-for i in range(number_of_files):
-	files[i] = open(str(i+1)+".", "r")
+
+NUMBER_OF_FILES = 517402
+
+for i in range(NUMBER_OF_FILES):
+	files[i] = open("emails/processed/"+str(i+1)+".txt", "r")
 dictionary = {}
 index = 0
-for i in range(number_of_files):
+for i in range(NUMBER_OF_FILES):
 	email_text = files[i].read().split()
 	files[i].seek(0)
 	print(email_text)
 document_term_matrix = []
-for i in range(number_of_files):
+for i in range(NUMBER_OF_FILES):
 	email_text = files[i].read().split()
 	files[i].seek(0)
 	print(email_text)
@@ -23,8 +23,8 @@ for i in range(number_of_files):
 			index += 1
 print(dictionary)
 vocabulary = len(dictionary)
-document_term_matrix = np.zeros((number_of_files, vocabulary))
-for i in range(number_of_files):
+document_term_matrix = np.zeros((NUMBER_OF_FILES, vocabulary))
+for i in range(NUMBER_OF_FILES):
 	email_text = files[i].read().split()
 	print(email_text)
 	# document_row = np.zeros((vocabulary))

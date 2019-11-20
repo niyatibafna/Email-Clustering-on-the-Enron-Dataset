@@ -4,16 +4,18 @@ from sklearn.cluster import KMeans
 import sklearn.metrics.pairwise as sk
 from sklearn.feature_extraction.text import TfidfVectorizer 
 import nltk
-# number_of_files_test = 1
-# files_test = [""]*number_of_files_test
-# for i in range(number_of_files_test):
+
+NUMBER_OF_FILES = 517402
+
+# NUMBER_OF_FILES_test = 1
+# files_test = [""]*NUMBER_OF_FILES_test
+# for i in range(NUMBER_OF_FILES_test):
 # 	files_test[i] = open(str(i+1)+".", "r")
 # tfidf_vectorizer_test = TfidfVectorizer(input = 'file', use_idf=True)
 # tfidf_vectorizer_test_vectors=tfidf_vectorizer_test.fit_transform(files_test)
-number_of_files = 17
-files = [""]*number_of_files
-content = [""]*number_of_files
-for i in range(number_of_files):
+files = [""]*NUMBER_OF_FILES
+content = [""]*NUMBER_OF_FILES
+for i in range(NUMBER_OF_FILES):
 	files[i] = open(str(i+1)+".", "r")
 	text = nltk.word_tokenize(files[i].read())
 	text = nltk.pos_tag(text)
@@ -36,7 +38,7 @@ print(Kmean.predict(tfidf_vectorizer_vectors))
 
 features = tfidf_vectorizer.get_feature_names()
 tfidf_array_format = tfidf_vectorizer_vectors.toarray()
-for i in range(number_of_files):
+for i in range(NUMBER_OF_FILES):
 	row = tfidf_array_format[i]
 	topn_ids = np.argsort(row)[::-1][:20]
 	# print(topn_ids)
