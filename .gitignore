@@ -2,4 +2,5 @@ maildir/
 .DS_Store
 emails/
 emails.csv
-
+clean/
+.ipynb_checkpoints/
