@@ -6,9 +6,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import nltk
 from sklearn import metrics
 from sklearn.metrics import pairwise_distances
+from sklearn.externals import joblib
 from joblib import dump
 
-NUMBER_OF_FILES = 517401
+NUMBER_OF_FILES = 510
 
 # NUMBER_OF_FILES_test = 1
 # files_test = [""]*NUMBER_OF_FILES_test
@@ -19,7 +20,7 @@ NUMBER_OF_FILES = 517401
 files = [""]*NUMBER_OF_FILES
 content = [""]*NUMBER_OF_FILES
 for i in range(1, NUMBER_OF_FILES):
-	files[i] = open("clean/"+str(i)+".txt", "r")
+	files[i] = open("clean/"+str(10*i)+".txt", "r")
 	content[i] = files[i].read()
 	files[i].close()
 	# text = nltk.pos_tag(text)
@@ -41,7 +42,8 @@ for i in good_topics:
 	print("Inertia: ", Kmean.inertia_)
 	model_name = 'Kmeans'+str(i) + '.model'
 	#SAVE MODEL
-	dump(Kmean, model_name)
+	# dump(Kmean, model_name)
+	print(labels)
 
 
 
