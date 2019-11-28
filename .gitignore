@@ -1,5 +1,7 @@
-maildir/
 .DS_Store
-emails/
-emails.csv
-
+.ipynb_checkpoints
+bin/
+include/
+lib/
+dataset/
+models/
