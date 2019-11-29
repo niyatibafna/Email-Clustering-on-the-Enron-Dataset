@@ -6,6 +6,7 @@
  # TFIDF from BoW, LDA, LSA for (3, 10) topics and their respective cv and umass coherence values
  # Saves the dictionary, and tfidf and model objects in saved/
  ##
+
 import numpy as np
 import gensim
 from gensim import corpora, models
@@ -14,6 +15,14 @@ from gensim.models.coherencemodel import CoherenceModel
 from gensim.models.ldamodel import LdaModel
 from gensim.corpora.dictionary import Dictionary
 from numpy import array
+
+N_DOCUMENTS = 517402
+processed_emails = []
+
+for i in range(1, N_DOCUMENTS):
+    with open("clean/" + str(i) + ".txt", "r") as inf:
+        for line in inf:
+            processed_emails.append(line.split(" "))
 
 print("Creating bag of words from clean emails...")
 dictionary = gensim.corpora.Dictionary(processed_emails)
