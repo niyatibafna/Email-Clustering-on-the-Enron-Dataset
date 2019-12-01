@@ -1,0 +1,40 @@
+
+
+LDA4
+
+Topic: 0
+agreement - request - attach - subject - know - need - let - name - isda - review - deal - counterparty - forward - original - draft - send - would - sent - get - change - regard - form - revise - follow - date - trade - see - phone - letter - company - access - meeting - approve - status - look - note - receive - add - want - like - one - financial - also - swap - complete - issue - file - check - process - position - week - include - execute - attached - could - use - gtc - contract - october - due - give - counterparties - find - discuss - think - term - asp - physical - last - category - assignment - transaction - month - additional - version - current - tuesday - number - back - street
+--------------------------------------------------
+Topic: 1
+schedule - company - variance - final - say - detect - hour - award - iso - westdesk - ancillary - log - hourahead - parse - date - get - file - one - would - image - type - million - go - trans - take - well - like - think - know - last - utility - look - continue - make - also - come - want - see - find - great - plant - send - subject - need - plan - year - much - could - industry - use - include - site - week - give - join - first - share - high - thing - right - back - world - receive - asp - yahoo - detail - financial - opportunity - tell - unit - original - big - asset - billion - many - next - chief - issue - really - interest
+--------------------------------------------------
+Topic: 2
+deal - would - intend - recipient - subject - know - use - ferc - attach - need - let - get - issue - send - original - think - pdx - draft - agreement - data - regard - give - review - like - want - file - change - see - forward - also - letter - go - one - receive - term - could - privilege - take - look - memo - week - delete - follow - contain - broker - sent - include - error - model - schedule - thru - peak - point - sender - require - back - date - copy - ask - say - next - discuss - attachment - still - position - prebon - entity - problem - well - meeting - show - make - request - last - trade - number - transmission - company - name - month
+--------------------------------------------------
+Topic: 3
+meeting - phone - subject - original - send - meet - description - sent - let - see - know - lunch - thursday - forward - tuesday - attached - get - calendar - attend - wednesday - street - presentation - november - tomorrow - date - week - october - room - number - would - attach - cell - regard - look - go - vacation - next - assistant - chairperson - like - interview - need - find - sorry - dinner - image - leave - want - follow - plan - december - location - afternoon - appointment - hotmail - detailed - entry - back - pdf - cal - blackberry - think - take - come - yahoo - org - hey - msn - xl - edu - holiday - great - september - mtg - jpg - give - floor - happy - night - august
+--------------------------------------------------
+
+================================================================================
+
+
+LDA5
+
+Topic: 0
+agreement - request - attach - name - need - deal - review - know - subject - isda - counterparty - let - draft - would - change - send - forward - date - letter - follow - form - regard - revise - get - original - company - receive - sent - approve - trade - issue - phone - process - status - complete - access - add - note - swap - also - language - transaction - see - one - want - counterparties - financial - include - gtc - term - due - meeting - look - like - execute - use - amount - reference - purchase - check - contract - payment - category - assignment - asp - position - could - think - additional - section - week - attached - give - month - current - number - eta - find - street - file
+--------------------------------------------------
+Topic: 1
+schedule - variance - final - company - detect - iso - say - hour - award - hourahead - westdesk - log - ancillary - parse - date - file - million - trans - type - utility - one - would - plant - continue - get - data - industry - take - also - make - well - plan - last - find - include - unit - high - year - join - billion - asset - share - site - financial - asp - like - use - need - cost - look - issue - chief - detail - first - dbcaps - go - load - know - see - manage - could - mkt - subject - opportunity - think - electric - world - access - come - send - many - week - lead - give - follow - future - right - month - value - great
+--------------------------------------------------
+Topic: 2
+get - image - would - go - think - recipient - know - intend - ferc - subject - send - want - use - see - need - let - like - original - one - take - issue - week - look - back - say - give - thru - well - could - deal - come - also - try - still - receive - schedule - last - thing - regard - much - ask - great - next - attach - tell - file - sure - forward - problem - really - review - letter - right - sent - hourahead - game - memo - delete - privilege - affiliate - require - first - attached - find - make - draft - hour - might - impact - plan - leave - put - copy - point - attachment - october - night - change - sender - meet
+--------------------------------------------------
+Topic: 3
+meeting - phone - subject - original - description - meet - send - attend - calendar - thursday - tuesday - sent - street - lunch - wednesday - know - let - get - room - november - date - number - tomorrow - see - cell - forward - chairperson - would - vacation - look - week - assistant - dinner - october - leave - attached - location - detailed - entry - regard - like - appointment - need - blackberry - cal - next - edu - interview - go - follow - sorry - hotmail - yahoo - december - mtg - pdf - holiday - plan - attach - msn - take - find - want - afternoon - font - floor - standard - come - back - presentation - gmt - happy - schedule - august - night - mailto - org - think - hey - september
+--------------------------------------------------
+Topic: 4
+attach - deal - subject - let - forward - know - original - xl - agreement - send - sent - would - file - pdx - presentation - broker - need - regard - draft - see - review - curve - october - get - prebon - give - change - use - meeting - like - look - request - discuss - week - model - version - attached - follow - show - want - find - trade - name - amerex - thursday - also - tuesday - think - could - phone - term - issue - wednesday - revise - intend - sheet - receive - var - one - peak - position - fyi - letter - meet - november - tomorrow - capacity - miss - spreadsheet - check - data - last - next - plan - entity - point - discus - privilege - contain - include
+--------------------------------------------------
+
+================================================================================
+
