@@ -1,0 +1,10 @@
+https://miningthedetails.com/blog/python/lda/GensimLDA/
+https://groups.google.com/forum/#!topic/gensim/FE7_FYSconA
+https://groups.google.com/forum/#!topic/gensim/ojySenxQHi4
+https://groups.google.com/forum/#!topic/gensim/z0wG3cojywM
+HoffmanLDA: https://www.di.ens.fr/~fbach/mdhnips2010.pdf
+Coherence Score Intuition: https://stats.stackexchange.com/questions/375062/how-does-topic-coherence-score-in-lda-intuitively-makes-sense
+https://stats.stackexchange.com/questions/199263/choosing-words-in-a-topic-which-cut-off-for-lda-topics
+Params in Gensim LDA: https://stackoverflow.com/questions/50805556/understanding-parameters-in-gensim-lda-model
+Evaluation: https://towardsdatascience.com/evaluate-topic-model-in-python-latent-dirichlet-allocation-lda-7d57484bb5d0
+Perplexity not correlated to human Judgement: http://qpleple.com/perplexity-to-evaluate-topic-models/
